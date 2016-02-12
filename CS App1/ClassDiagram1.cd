@@ -8,9 +8,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CS_App1.Inventory">
-    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAA=</HashCode>
       <FileName>Inventory.cs</FileName>
     </TypeIdentifier>
   </Class>
