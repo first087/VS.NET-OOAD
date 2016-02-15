@@ -2,20 +2,18 @@
 
 Public Class Form1
     Private Sub button1_Click(sender As Object, e As EventArgs) Handles btnFindGuitar.Click
-        ' TODO : Create new instance
-        Dim inventory As Inventory = Nothing
+        Dim inventory As Inventory = New Inventory()
 
         initialInventory(inventory)
 
-        ' TODO  Change var name And create New guitar instance for search with "builder" Is "gibson"
-        Dim yourNameLikes As Guitar = Nothing
+        Dim myGuitarLikes As Guitar = New Guitar(Nothing, 0.0, "gibson", Nothing, Nothing, Nothing, Nothing)
 
-        Dim guitar As Guitar = inventory.search(yourNameLikes)
+        Dim guitar As Guitar = inventory.search(myGuitarLikes)
 
         If (guitar IsNot Nothing) Then
             displayGuitarInfo(guitar)
         Else
-            displaySorryMessage(yourNameLikes)
+            displaySorryMessage(myGuitarLikes)
         End If
     End Sub
 

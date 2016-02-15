@@ -15,20 +15,18 @@ namespace CS_App1 {
         }
 
         private void btnFindGuitar_Click(object sender, EventArgs e) {
-            // TODO : Create new instance
-            Inventory inventory = null;
+            Inventory inventory = new Inventory();
 
             initialInventory(inventory);
 
-            // TODO : Change var name and create new guitar instance for search with "builder" is "gibson"
-            Guitar yourNameLikes = null;
+            Guitar myGuitarLikes = new Guitar(null, 0.0, "gibson", null, null, null, null);
 
-            Guitar guitar = inventory.search(yourNameLikes);
+            Guitar guitar = inventory.search(myGuitarLikes);
 
             if (guitar != null) {
                 displayGuitarInfo(guitar);
             } else {
-                displaySorryMessage(yourNameLikes);
+                displaySorryMessage(myGuitarLikes);
             }
         }
 
