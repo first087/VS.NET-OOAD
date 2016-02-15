@@ -13,5 +13,9 @@ namespace CS_App1 {
         public Form1() {
             InitializeComponent();
         }
+
+        private void btnFindGuitar_Click(object sender, EventArgs e) {
+
+        }
     }
 }
