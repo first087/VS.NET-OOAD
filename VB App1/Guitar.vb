@@ -37,7 +37,7 @@
         Return Me.model
     End Function
 
-    Public Function getType() As String
+    Public Function getGuitarType() As String
         Return Me.type
     End Function
 
