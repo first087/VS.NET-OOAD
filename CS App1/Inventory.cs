@@ -33,7 +33,7 @@ namespace CS_App1 {
                 Guitar guitar = this.guitars[i];
 
                 string builder = searchGuitar.getBuilder();
-                if ((builder != null) && (!builder.Equals("") && (!builder.Equals(guitar.getBuilder())))) {
+                if ((builder != null) && (!builder.Equals("")) && (!builder.Equals(guitar.getBuilder()))) {
                     continue;
                 }
 
